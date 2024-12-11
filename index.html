@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./image/small-logo.png" type="image/png" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>BrimmaSync</title>
+  </head>
+
+  <body>
+    <div class="navbar">
+      <div class="side-logo">
+        <img src="./image/brimmasidelogo.png" alt="" />
+      </div>
+      <div>
+        <button class="darkmodebtn">Dark Mode</button>
+        <p class="heloname">hello karthick</p>
+        <img src="./image/user-logo.png" class="user-logo" alt="" />
+      </div>
+    </div>
+    <div class="logincontainer">
+      <div class="logo">
+        <img src="./image/brimmatech_logo-removebg-preview.png" alt="" />
+      </div>
+      <div class="box">
+        <label for="username">Username</label>
+        <input type="text" name="" id="username" />
+      </div>
+
+      <div class="box">
+        <label for="Password">Password</label>
+        <input type="password" name="" id="Password" />
+      </div>
+
+      <div class="btn-box">
+        <button class="btn loginbtn">Login</button>
+      </div>
+      <footer class="">© Brimma Tech 2024</footer>
+    </div>
+    <div class="content">
+      <div class="container">
+        <div class="meetings">
+          <div class="TodaysMeetings scrollto">
+            <!-- <div class="box">
+              <label for="">Future meetings</label>
+            </div> -->
+          </div>
+          <div class="summary scrollto">
+            <!-- <div class="box">
+              <label for="">Meeting History</label>
+            </div> -->
+          </div>
+        </div>
+
+        <div class="buttons">
+          <button class="sortmeetingbtn btn">Sort Meeting By Date</button>
+          <button class="newmeetingbtn btn">New Meeting</button>
+          <button class="syncmeetingbtn btn">Sync calendar</button>
+          <button class="Instantmeetingbtn btn">Instant Meeting</button>
+        </div>
+      </div>
+    </div>
+    <div class="form-input">
+      <!-- <div class="close-btn">&times;</div> -->
+      <form action="" class="">
+        <label for="meeting-nameid">Meeting Name</label>
+        <input type="text" name="" id="meeting-nameid" class="meeting-name" />
+        <!-- <br /> -->
+        <label for="date-inid">Date</label>
+        <input type="date" name="" id="date-inid" class="date-in" />
+        <!-- <br /> -->
+        <label for="Textareaid">Description</label>
+        <textarea name="" id="Textareaid" class="Textarea"></textarea>
+        <div>
+          <input
+            type="submit"
+            name=""
+            class="addmeetingbtn btn"
+            value="Add Meeting"
+          />
+          <input type="reset" name="" class="Cancelbtn btn" value="Cancel" />
+        </div>
+      </form>
+      <label class="downpopup">downpopup</label>
+    </div>
+    <script src="./script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
